@@ -12,6 +12,22 @@
     }
 }
 
+#result{
+    animation: animateall 5s;
+    animation-delay: 1s;
+}
+@keyframes animateall
+{
+    from{
+       
+        opacity: 0;
+    }
+    to{
+       
+        opacity: 1;
+    }
+}
+
 /*
 .flex1img img {
     animation: animate 0.1s linear 1;
