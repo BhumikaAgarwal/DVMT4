@@ -1,0 +1,852 @@
+@media(max-width:1200px){
+
+    .flex2head1{
+font-size: 3.6rem;  
+  }
+
+  .lastl1 , .lastl2{
+    font-size: 1.3rem;
+  }
+}
+
+@media all and (max-width: 1050px) {
+
+    html {
+
+      font-size: 10px;
+
+    }
+
+    .headingl2{
+        padding-bottom: 15rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 15rem;
+    }
+
+    .part2{
+        margin-left: 100px;
+    }
+
+    .thirdpart{
+        margin-left: 40px;
+    }
+
+    .railvisit{
+        left: 80%;
+    }
+}
+
+@media all and (max-width: 920px) {
+
+    html {
+
+      font-size: 12px;
+
+    }
+
+    .headingl2{
+        padding-bottom: 15rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 15rem;
+    }
+
+    .part2{
+        margin-left: 100px;
+    }
+
+    .thirdpart{
+        margin-left: 40px;
+    }
+
+    .railvisit{
+        left: 70%;
+    }
+
+    .lastl1 , .lastl2{
+        font-size: 20px;
+    }
+
+    .flex2img video , .flex3img video{
+        height: 400px;
+        width: 500px;
+    }
+
+    .linelogoflex , .lastline{
+        gap: 3rem;
+    }
+}
+
+@media all and (max-width: 850px) {
+
+    html {
+
+      font-size: 10px;
+
+    }
+
+    .visit , .vision , .donate , .lang{
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        left: 30px;
+    }
+
+    .logo{
+        position: absolute;
+        right: -130px;
+    }
+
+
+    
+    .headingl2{
+        padding-bottom: 7rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 7rem;
+    }
+
+    .flex1circle{
+        top: -6.5rem;
+        right: 3rem;
+    }
+
+
+    .thirdpart{
+        margin-left: 40px;
+    }
+
+    .railvisit{
+        position: relative;
+        display: flex;
+        left:50%
+    }
+    .flex2head1 , .flex2heading{
+        font-size: 7rem;
+    }
+
+    .flex2img video , .flex3img video{
+        width: 850px; 
+        height: 550px;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        margin-top: 50px;
+
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    .linelogoflex , .lastline{
+        justify-content: space-between;
+        width: 130%;
+        }
+
+        .lastline{
+            padding-bottom: 20px;
+        }
+
+    .lastl1 , .lastl2{
+        font-size: 3rem;
+    }
+
+    .arr2 {
+        transform: rotate(90deg);
+    }
+
+    .arr4 {
+        transform: rotate(-90deg);
+    }
+
+    .thirdpart{
+        flex-direction: column-reverse;
+    }
+
+    .lastl1 , .flex2l1{
+        width: 100%;
+    }
+
+    .flex1arrow2 img{
+        margin-left: 4rem;
+    }
+   
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .flex2l1{
+        font-size: 5.5rem;
+    }
+
+    .flex2logo{
+        margin-top: 0%;
+    }
+
+    .flex1img img{
+        width: 450px;
+        height: 300px;
+    }
+
+
+}
+
+
+
+@media all and (max-width: 770px) {
+
+    html {
+
+      font-size: 10px;
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+
+    .headingl2{
+        padding-bottom: 7rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 7rem;
+    }
+
+
+    .flex1circle{
+        top: -6.5rem;
+        right: 3rem;
+    }
+
+
+    .thirdpart{
+        margin-left: 40px;
+    }
+
+    .railvisit{
+        position: relative;
+        display: flex;
+        left:50%
+    }
+    .flex2head1 , .flex2heading{
+        font-size: 7rem;
+    }
+
+    .flex2img video {
+        width: 750px; 
+        height: 550px;
+    }
+     .flex3img video{
+        width: 800px; 
+        height: 550px;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 40px;
+        margin-top: 50px;
+
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    .linelogoflex , .lastline{
+        justify-content: space-between;
+        width: 130%;
+        }
+
+        .lastline{
+            padding-bottom: 20px;
+        }
+
+    .lastl1 , .lastl2{
+        font-size: 3rem;
+    }
+
+    .arr2 {
+        transform: rotate(90deg);
+    }
+
+    .arr4 {
+        transform: rotate(-90deg);
+    }
+
+    .thirdpart{
+        flex-direction: column-reverse;
+    }
+
+    .lastl1 , .flex2l1{
+        width: 100%;
+    }
+
+    .flex1arrow2 img{
+        margin-left: 4rem;
+    }
+   
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .flex2l1{
+        font-size: 5.5rem;
+    }
+
+    .flex2logo{
+        margin-top: 0%;
+    }
+
+    .flex1img img{
+        width: 450px;
+        height: 300px;
+    }
+
+
+}
+
+
+
+@media all and (max-width: 650px) {
+
+    html {
+
+      font-size: 10px;
+
+    }
+
+    .headingl2{
+        padding-bottom: 7rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 7rem;
+    }
+
+    .flex1circle{
+        top: -6.5rem;
+        right: -15rem;
+    }
+
+
+    .thirdpart{
+        margin-left: 40px;
+    }
+
+    .railvisit{
+        position: relative;
+        display: flex;
+        left:50%
+    }
+    .flex2head1 , .flex2heading{
+        font-size: 7rem;
+    }
+
+    .flex2img video {
+        width: 650px; 
+        height: 450px;
+    }
+     .flex3img video{
+        width: 700px; 
+        height: 450px;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    .linelogoflex , .lastline{
+        justify-content: space-between;
+        width: 150%;
+        }
+
+        .lastline{
+            padding-bottom: 20px;
+        }
+
+    .lastl1 , .lastl2{
+        font-size: 3rem;
+    }
+
+    .arr2 {
+        transform: rotate(90deg);
+    }
+
+    .arr4 {
+        transform: rotate(-90deg);
+    }
+
+    .thirdpart{
+        flex-direction: column-reverse;
+    }
+
+    .lastl1 , .flex2l1{
+        width: 100%;
+    }
+
+    .flex1arrow2 img{
+        margin-left: 4rem;
+    }
+   
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .flex2l1{
+        font-size: 5.5rem;
+    }
+
+    .flex2logo{
+        margin-top: 0%;
+    }
+
+    .flex1img img{
+        width: 750px;
+        height: 500px;
+    }
+
+    .line1{
+        width: 100%;
+        font-size: 3.8rem;
+    }
+    .line3{
+        font-size: 3rem;
+    }
+    .flex1arrow1 , .flex1arrow2 , .headingl2{
+        display: none;
+    }
+
+    .flex1{
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+@media all and (max-width: 550px) {
+
+    html {
+
+      font-size: 10px;
+
+    }
+
+    .headingl2{
+        padding-bottom: 7rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 7rem;
+    }
+
+    .flex1circle{
+        top: -6.5rem;
+        right: -15rem;
+    }
+
+
+    .thirdpart{
+        margin-left: 10px;
+    }
+
+    .railvisit{
+        position: relative;
+        display: flex;
+        left:50%
+    }
+    .flex2head1 , .flex2heading{
+        font-size: 7rem;
+    }
+
+    .flex2img video {
+        width: 550px; 
+        height: 450px;
+    }
+     .flex3img video{
+        width: 550px; 
+        height: 400px;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    .linelogoflex , .lastline{
+        justify-content: space-between;
+        width: 130%;
+        }
+
+        .lastline{
+            padding-bottom: 20px;
+        }
+
+    .lastl1 , .lastl2{
+        font-size: 3rem;
+    }
+
+    .arr2 {
+        transform: rotate(90deg);
+    }
+
+    .arr4 {
+        transform: rotate(-90deg);
+    }
+
+    .thirdpart{
+        flex-direction: column-reverse;
+    }
+
+    .lastl1 , .flex2l1{
+        width: 100%;
+    }
+
+    .flex1arrow2 img{
+        margin-left: 4rem;
+    }
+   
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .flex2l1{
+        font-size: 5.5rem;
+    }
+
+    .flex2logo{
+        margin-top: 0%;
+    }
+
+    .flex1img img{
+        width: 550px;
+        height: 500px;
+    }
+
+    .line1{
+        width: 100%;
+        font-size: 3.8rem;
+    }
+    .line3{
+        font-size: 3rem;
+    }
+    .flex1arrow1 , .flex1arrow2 , .headingl2{
+        display: none;
+    }
+
+    .flex1{
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media all and (max-width: 425px) {
+
+    html {
+
+      font-size: 8.5px;
+
+    }
+
+    .menu{
+        position: absolute;
+        left: 30px;
+    }
+
+    .logo{
+        position: absolute;
+        right: -100px;
+    }
+
+    .headingl2{
+        padding-bottom: 7rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 7rem;
+    }
+
+    .flex1circle{
+        top: -6.5rem;
+        right: -15rem;
+    }
+
+
+    .thirdpart{
+        margin-left: 10px;
+    }
+
+    .railvisit{
+        position: relative;
+        display: flex;
+        left:50%
+    }
+    .flex2head1 , .flex2heading{
+        font-size: 6rem;
+    }
+
+    
+
+    .flex2img video {
+        width: 400px; 
+        height: 300px;
+    }
+     .flex3img video{
+        width: 430px; 
+        height: 350px;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+
+    .linelogoflex , .lastline{
+        justify-content: space-between;
+        width: 135%;
+        }
+
+        .lastline{
+            padding-bottom: 20px;
+        }
+
+    .lastl1 , .lastl2{
+        font-size: 3rem;
+    }
+
+    .arr2 {
+        transform: rotate(90deg);
+    }
+
+    .arr4 {
+        transform: rotate(-90deg);
+    }
+
+    .thirdpart{
+        flex-direction: column-reverse;
+    }
+
+    .lastl1 , .flex2l1{
+        width: 100%;
+    }
+
+    .flex1arrow2 img{
+        margin-left: 4rem;
+    }
+   
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .flex2l1{
+        font-size: 5.5rem;
+    }
+
+    .flex2logo{
+        margin-top: 0%;
+    }
+
+    .flex1img img{
+        width: 450px;
+        height: 350px;
+    }
+
+    .line1{
+        width: 100%;
+        font-size: 3.8rem;
+    }
+    .line3{
+        font-size: 3rem;
+    }
+    .flex1arrow1 , .flex1arrow2 , .headingl2{
+        display: none;
+    }
+
+    .flex1{
+        flex-direction: column-reverse;
+    }
+
+    .headingl1{
+        width: 100%;
+    }
+
+}
+
+
+@media all and (max-width: 376px) {
+
+    html {
+
+      font-size: 7px;
+
+    }
+
+    .headingl2{
+        padding-bottom: 7rem;
+    }
+
+    .flex1arrow1 , .flex1arrow2{
+        padding-top: 7rem;
+    }
+
+    .flex1circle{
+        top: -6.5rem;
+        right: -15rem;
+    }
+
+
+    .thirdpart{
+        margin-left: 10px;
+    }
+
+    .railvisit{
+        position: relative;
+        display: flex;
+        left:50%
+    }
+    .flex2head1 , .flex2heading{
+        font-size: 5.5rem;
+    }
+
+    
+
+    .flex2img video {
+        width: 380px; 
+        height: 200px;
+    }
+     .flex3img video{
+        width: 400px; 
+        height: 250px;
+    }
+
+    .part2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 50px;
+        margin-left: 20px;
+
+
+    }
+    .secondpart{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+        padding-left: 35px;
+
+    }
+
+    .linelogoflex , .lastline{
+        justify-content: space-between;
+        width: 135%;
+        }
+
+        .lastline{
+            padding-bottom: 20px;
+        }
+
+    .lastl1 , .lastl2{
+        font-size: 3rem;
+    }
+
+    .arr2 {
+        transform: rotate(90deg);
+    }
+
+    .arr4 {
+        transform: rotate(-90deg);
+    }
+
+    .thirdpart{
+        flex-direction: column-reverse;
+        padding-left: 35px;
+    }
+
+    .lastl1 , .flex2l1{
+        width: 100%;
+    }
+
+    .flex1arrow2 img{
+        margin-left: 4rem;
+    }
+   
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .flex2l1{
+        font-size: 5.5rem;
+    }
+
+    .flex2logo{
+        margin-top: 0%;
+    }
+
+    .flex1img img{
+        width: 400px;
+        height: 250px;
+    }
+
+    .line1{
+        width: 100%;
+        font-size: 3.8rem;
+    }
+    .line3{
+        font-size: 3rem;
+    }
+    .flex1arrow1 , .flex1arrow2 , .headingl2{
+        display: none;
+    }
+
+    .flex1{
+        flex-direction: column-reverse;
+    }
+
+    .headingl1{
+        width: 100%;
+        font-size: 7rem;
+
+    }
+
+}

@@ -1,0 +1,100 @@
+.flex1circle {
+    animation: rotate 45s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*
+.flex1img img {
+    animation: animate 0.1s linear 1;
+    animation: animate1 0.1s linear 1;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(100px) , translateX(100px);
+    }
+
+    100%{
+        transform: translateY(0px) , translateX(0px);
+
+    }
+}
+
+.flex1img img{
+    transform: translateZ(0);
+    transition: opacity .25s linear;
+    will-change: opacity
+}
+*/
+
+
+
+
+
+/*
+.headingl1{
+    animation: lettersl1 0.1s forwards 1;
+    animation-delay: 0.5s;
+}
+
+@keyframes lettersl1{
+    0%{
+        transform: translate3d(0,5%,0);
+    }
+
+    100%{
+        transform: translate3d(0,0,0);
+    }
+}
+*/
+.headingl2 {
+    animation: lettersl2 0.5s forwards 1;
+    animation-delay: 0.7s;
+}
+
+@keyframes lettersl2 {
+    0% {
+        transform: translate3d(0, 10%, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+.flex1arrow1 img:hover {
+    transform: translateX(-5px);
+}
+
+.flex1arrow2 img:hover {
+    transform: translateX(5px);
+}
+
+/*
+
+body {
+    animation: bodyani 1s linear 1;
+}
+
+@keyframes bodyani {
+    0% {
+        background-color: aqua;
+    }
+
+    100% {
+        background-color: aqua;
+    }
+}
+
+*/

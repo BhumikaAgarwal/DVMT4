@@ -1,0 +1,355 @@
+body {
+    background-color: #FAF9F7;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.menuicon {
+    width: 60%;
+    height: 0.1rem;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 4rem;
+    height: 0.7rem;
+    position: relative;
+    padding: 0px;
+    cursor: pointer;
+    margin-top: 1.3rem;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+    padding-left: 4.5rem;
+}
+
+.navlastflex {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.vision,
+.visit {
+    font-size: 1.2rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.02rem;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.donate {
+    padding: 0.2rem 1.6rem;
+    font-size: 1rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    border-radius: 5rem;
+    color: black;
+    border: 0.1rem solid black;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.lang {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    cursor: pointer;
+    margin-left: 2.2rem;
+}
+
+.firstpart {
+    padding-left: 5rem;
+}
+
+.headingl1,
+.headingl2 {
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.line1 {
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.8rem;
+    width: 22.5rem;
+}
+
+.line3 {
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: #04C75C;
+    padding-top: 1.7rem;
+}
+
+
+
+.line3:hover {
+    color: black;
+}
+
+.line3:hover .arr1 {
+    transform: translateX(5px);
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+}
+
+.arr1 {
+    font-size: 20px;
+}
+
+.flex1img img {
+    width: 650px;
+    height: 450px;
+}
+
+
+.headingl1 {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-left: 6rem;
+}
+
+.headingl2 {
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 5.8rem;
+}
+
+.flex1content {
+    padding-left: 0.1rem;
+}
+
+
+/*second part */
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.linelogoflex {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.lastline {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.part2 {
+    padding-top: 5rem;
+
+}
+
+.lastl1 , .flex2l1{
+    width: 300px;
+}
+
+.secondpart {
+    display: flex;
+    flex-direction: row;
+    padding-top: 7.8rem;
+    padding-left: 7rem;
+    gap: 3rem;
+}
+
+.flex2img video,
+.flex3img video {
+    width: 500px;
+    height: 325px;
+}
+
+.lastl1,
+.lastl2 {
+    font-size: 1.5rem;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.flex2l1,
+.flex2l2 {
+    font-size: 3rem;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.flex2heading {
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.flex2head1 {
+    position: relative;
+    right: 6rem;
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: "Armin Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.arr2 {
+    font-size: 50px;
+    padding-top: 1rem;
+}
+
+.flexcol:hover .arr2 {
+    transform: translateX(-10px);
+    color: #04C75C;
+    animation-timing-function: ease-in-out;
+}
+
+.lastl2 {
+    display: flex;
+    gap: 5px;
+}
+
+.lastl2:hover {
+    color: #04C75C;
+}
+
+.arr3 {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.lastl2:hover .arr3 {
+    transform: scale(1.2);
+}
+
+
+
+.flex2logo {
+    margin-top: 5%;
+}
+
+.thirdpart {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7rem;
+    padding-top: 5rem;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.arr4{
+    font-size: 50px;
+}
+
+.flexcol:hover .arr4 {
+    transform: translateX(10px);
+    color: #04C75C;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.1s;
+}
+
+.visit:hover,
+.vision:hover,
+.lang:hover,
+.flex2logo svg:hover,
+.logo svg:hover,
+.lastl2:hover,
+.navlogo:hover {
+    cursor: pointer;
+    color: #04C75C;
+}
+
+.menu:hover .menuicon {
+    background-color: #04C75C;
+}
+
+.donate:hover {
+    background-color: #04C75C;
+    color: white;
+    border: none;
+}
+
+.flex1arrow1 img {
+    height: auto;
+    width: 50px;
+    margin-top: 14.5rem;
+
+}
+
+.flex1arrow2 img {
+    height: auto;
+    width: 50px;
+    margin-top: 14.5rem;
+    margin-left: 6rem;
+}
+
+
+.imgcircle {
+    position: relative;
+}
+
+.flex1img {
+    position: relative;
+}
+
+.flex1circle {
+    position: absolute;
+    right: -3.5rem;
+    top: 2rem;
+}
+
+
+.railvisit {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 70%;
+}
+
+.hideblock{
+    display: none;
+    width: 200px;
+    background-color: #04C75C;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.flex2logo{
+    display: flex;
+    gap: 10px;
+}
+
+.flex2logo:hover .hideblock{
+display: block;
+}
+
+.flex3img video{
+    position: relative;
+}
