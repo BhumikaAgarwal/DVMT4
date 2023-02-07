@@ -1,5 +1,6 @@
 .flex1circle {
     animation: rotate 45s linear infinite;
+    
 }
 
 @keyframes rotate {
@@ -12,83 +13,6 @@
     }
 }
 
-#result{
-    animation: animateall 5s;
-    animation-delay: 1s;
-}
-@keyframes animateall
-{
-    from{
-       
-        opacity: 0;
-    }
-    to{
-       
-        opacity: 1;
-    }
-}
-
-/*
-.flex1img img {
-    animation: animate 0.1s linear 1;
-    animation: animate1 0.1s linear 1;
-}
-
-@keyframes animate {
-    0% {
-        transform: translateY(100px) , translateX(100px);
-    }
-
-    100%{
-        transform: translateY(0px) , translateX(0px);
-
-    }
-}
-
-.flex1img img{
-    transform: translateZ(0);
-    transition: opacity .25s linear;
-    will-change: opacity
-}
-*/
-
-
-
-
-
-/*
-.headingl1{
-    animation: lettersl1 0.1s forwards 1;
-    animation-delay: 0.5s;
-}
-
-@keyframes lettersl1{
-    0%{
-        transform: translate3d(0,5%,0);
-    }
-
-    100%{
-        transform: translate3d(0,0,0);
-    }
-}
-
-.headingl2 {
-    animation: lettersl2 0.5s forwards 1;
-    animation-delay: 0.7s;
-}
-
-@keyframes lettersl2 {
-    0% {
-        transform: translate3d(0, 10%, 0);
-    }
-
-    100% {
-        transform: translate3d(0, 0, 0);
-    }
-}
-*/
-
-
 .flex1arrow1 img:hover {
     transform: translateX(-5px);
 }
@@ -97,20 +21,94 @@
     transform: translateX(5px);
 }
 
-/*
-
-body {
-    animation: bodyani 1s linear 1;
+#result{
+    animation: animateall 2.5s;
+    animation-delay: 0.02s;
+}
+@keyframes animateall
+{
+    0%{
+       
+        opacity: 0;
+    }
+    100%{
+       
+        opacity: 1;
+    }
 }
 
-@keyframes bodyani {
-    0% {
-        background-color: aqua;
-    }
+.headingl2{
+    animation: animatepark 0.7s;
+    animation-delay: 0.2s;
+    
+}
 
-    100% {
-        background-color: aqua;
+@keyframes animatepark{
+    from{
+        transform: translateY(32px);
+    }
+    to{
+        transform: translateY(0px);
     }
 }
 
-*/
+.headingl1 , .line1 , .line3{
+    animation: animatetxt 0.5s;
+    animation-delay: 0.2s;
+}
+
+@keyframes animatetxt{
+    from{
+        transform: translateY(6px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.flex1img img{
+    animation: animateimage 0.7s;
+    animation-delay: 0.2s;
+    transform-origin: left top;
+   
+}
+@keyframes animateimage{
+    from{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(0deg);
+        }
+}
+
+.flex2heading{
+    animation: animaterail 0.4s;
+    animation-delay: 0.2s;
+    
+}
+
+
+@keyframes animaterail{
+    0%{
+        transform: translateX(-45px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+.flex2head1{
+    animation: animatevisit 0.8s;
+    animation-delay: 0.2s;
+    
+}
+@keyframes animatevisit{
+    0%{
+        transform: translateX(-5px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
